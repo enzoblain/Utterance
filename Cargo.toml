@@ -1,0 +1,17 @@
+[package]
+name = "utterance"
+version = "0.2.6"
+edition = "2024"
+rust-version = "1.96"
+license = "MIT"
+description = "A parser library for creating readable, natural-language-inspired domain-specific languages."
+repository = "https://github.com/enzoblain/Utterance"
+homepage = "https://github.com/enzoblain/Utterance"
+documentation = "https://docs.rs/utterance"
+readme = "README.md"
+keywords = ["parser", "lexer", "dsl"]
+categories = ["parsing"]
+
+[dependencies]
+smallvec = "2.0.0-alpha.12"
+thiserror = "2.0.20"
